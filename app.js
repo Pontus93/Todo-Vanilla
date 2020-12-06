@@ -34,6 +34,7 @@ function deleteTodo(element) {
 function completeTodo(element) {
     element.classList.toggle("line");
     addTodoInput.focus();
+    store();
 }
 
 // localstorage for todos
